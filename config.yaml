@@ -19,7 +19,7 @@ site:
   keywords: the last startbase
   title: TLS Blog
 source_ext: .md
-theme: cyborg
+theme: the-last-starbase
 time_format: '%H:%M:%S'
 timestamp_format: '%Y-%m-%d %H:%M'
 web_prefix: ''
