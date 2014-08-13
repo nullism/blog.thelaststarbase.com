@@ -1,6 +1,7 @@
 [[
 title: Alpha Build 0.1.1
-author: JFresh
+timestamp: 2014-08-13 07:12
+author: Aaron
 tags: [alpha]
 ]]
 
@@ -14,3 +15,5 @@ Graphics are something we're focussing on towards the later stages of developmen
 image: screen_alpha_1.png
 caption: Simple graphics, cheap minimap, and lazy hud.
 {endtpl}
+
+~ Aaron
