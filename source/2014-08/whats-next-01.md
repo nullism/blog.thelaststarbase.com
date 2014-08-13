@@ -1,7 +1,7 @@
 [[
 title: "What's Next #1"
 author: Aaron
-date: 2014-08-13 12:20
+timestamp: 2014-08-13 12:20
 tags: alpha, whats-next
 ]]
 
