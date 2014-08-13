@@ -28,6 +28,7 @@ Some mildly interesting and possibly unique features:
 
 * Turrets will automatically rebuild after being destroyed.
 * Enemy "creeps" change in *type* instead of just having more health as waves progress.
-* Weapon ranges are pretty large, hopefully giving the game a larger scale feel like Supreme Commander. 
+* Weapon ranges are pretty large, hopefully giving the game a feeling of massiveness like Supreme Commander.
+* Waves are spawned by an AI, rather than predetermined lists of units. 
 
 ~ Aaron
