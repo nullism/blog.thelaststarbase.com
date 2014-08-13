@@ -1,6 +1,6 @@
 [[
 title: Introduction
-author: Jfresh
+author: Aaron
 timestamp: 2014-08-12 21:45
 description: Intro post.
 ]]
@@ -30,3 +30,4 @@ Some mildly interesting and possibly unique features:
 * Enemy "creeps" change in *type* instead of just having more health as waves progress.
 * Weapon ranges are pretty large, hopefully giving the game a larger scale feel like Supreme Commander. 
 
+~ Aaron
