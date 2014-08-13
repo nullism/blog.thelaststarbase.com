@@ -1,0 +1,25 @@
+base_path: /home/nullism/web/blog.thelaststarbase.com
+blurb_max: 50
+date_format: '%Y-%m-%d'
+home_page: posts.html
+markdown_exts:
+- codehilite
+- toc
+- pykwiki.ext.tpl
+- pykwiki.ext.post
+postlist:
+  max_pages: 5
+  order_field: mtime
+  order_type: descending
+  per_page: 2
+  post_type: full
+site:
+  author: TLS Team
+  description: The Last Starbase official blog
+  keywords: the last startbase
+  title: TLS Blog
+source_ext: .md
+theme: cyborg
+time_format: '%H:%M:%S'
+timestamp_format: '%Y-%m-%d %H:%M'
+web_prefix: ''
