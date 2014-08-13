@@ -24,8 +24,9 @@ of an RTS, mixed with the waves and tower variety elements of a TD.
 
 It's kind of unique as far as we could tell. 
 
-Some mildly interesting features: 
+Some mildly interesting and possibly unique features: 
 
 * Turrets will automatically rebuild after being destroyed.
-
+* Enemy "creeps" change in *type* instead of just having more health as waves progress.
+* Weapon ranges are pretty large, hopefully giving the game a larger scale feel like Supreme Commander. 
 
