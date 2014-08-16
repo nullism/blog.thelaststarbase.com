@@ -7,6 +7,7 @@
         </a>
         {% if caption %}
         <div class="caption">
+            <br>
             <p class="text-muted">{{caption}}</p>
         </div>
         {% endif %}
