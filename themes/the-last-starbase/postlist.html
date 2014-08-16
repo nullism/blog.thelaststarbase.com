@@ -11,8 +11,9 @@
     </div>
     <div class="panel-body">
         {% for tag in post.tags %}
-<a class="label label-default"
-        href="/{{conf.search_tpl}}?t={{tag}}">{{tag}} <b class="glyphicon glyphicon-tag"></b></a>
+        <a class="label label-default"
+            href="/{{conf.search_tpl}}?t={{tag}}">{{tag}}
+            <b class="glyphicon glyphicon-tag"></b></a>
         {% endfor %}
         {% if post_type == 'full' %}
             {{post.target_text}}
@@ -25,6 +26,9 @@
         {% else %}
             {{post.blurb}}
             <a href="{{post.url}}" class="btn">Read more</a>
+        {% endif %}
+        {% if topt.disqus_shortname %}
+        <div><a href="{{post.url}}#comments">Comments</a></div>
         {% endif %}
     </div>
 </div>
