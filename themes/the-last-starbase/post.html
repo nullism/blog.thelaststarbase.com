@@ -5,11 +5,15 @@
 {% endblock %}
 {% block title %}{{post.title}}{% endblock %}
 {% block content %}
-<p>
+<div class="pull-left">
 {% for t in post.tags %}
     <a class="label label-default"
         href="/{{conf.search_tpl}}?t={{t}}">{{t}} <b class="glyphicon glyphicon-tag"></b></a>
 {% endfor %}
-</p>
+</div>
+<div class="pull-right">
+Posted on <strong>{{post.mtimestamp}}</strong> by <strong>{{post.author}}</strong>
+</div>
+<div class="clearfix"></div>
 {{post.target_text|safe}}
 {% endblock %}
