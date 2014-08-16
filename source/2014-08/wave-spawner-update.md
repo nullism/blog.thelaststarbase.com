@@ -11,5 +11,12 @@ The new Wave Spawning system appears to be stable. The units in a wave are chose
 
 {tpl:thumbnail}
 image: spawn_point_alpha1.png
-caption: Spawn Point Example
+caption: Spawn point doing what it does best, spawning.
+{endtpl}
+
+To add another level of strategy, we're playing with the idea of making Spawn Points destructable. 
+
+{tpl:thumbnail}
+image: spawn_point_attacked.png
+caption: Destroying spawn points wont be easy.
 {endtpl}
