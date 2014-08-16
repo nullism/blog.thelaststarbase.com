@@ -1,12 +1,17 @@
 [[
 title: Turret Styles
 author: Aaron
+tags: [polls, alpha]
 ]]
 
 # Which looks better? 
 
 * All styles are about the same resource usage.
 * All styles require similar time investment to produce.
+
+# Update
+
+Due to the overwhelming preference for style *C*, we're probably gonna do that. I mean, what's the point of a poll if we're just going to ignore the results? So yeah... *C* it is.
 
 {tpl:thumbnail}
 image: cannons_abcd.png
