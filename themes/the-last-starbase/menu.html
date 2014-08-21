@@ -22,9 +22,11 @@
                 {% if not l2.href %}
                     <p class="link_section navbar-text">{{l2.label}}</p>
                 {% elif l2.rel == 'external' %}
-                    <a href="{{l2.href}}" target="{{l.get('target','_blank')}}">
+                    <a href="{{l2.href}}" target="{{l2.get('target','_blank')}}">
                         {{l2.label}}
+                        {% if l2.target != '_self' %}
                         <span class="glyphicon glyphicon-new-window"></span>
+                        {% endif %}
                     </a>
                 {% else %}
                     <a href="{{l2.href}}" target="{{l.get('target','_self')}}">{{l2.label}}</a>
@@ -38,7 +40,9 @@
             {% if l.rel == 'external' %}
                 <a href="{{l.href}}" target="{{l.get('target','_blank')}}">
                     {{l.label}}
+                    {% if l.target != '_self' %}
                     <span class="glyphicon glyphicon-new-window"></span>
+                    {% endif %}
                 </a>
             {% else %}
                 <a href="{{l.href}}" target="{{l.get('target','_self')}}">{{l.label}}</a>
