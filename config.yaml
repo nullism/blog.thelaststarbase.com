@@ -18,6 +18,7 @@ site:
   description: The Last Starbase official blog
   keywords: the last startbase
   title: TLS Blog
+  base_url: http://blog.thelaststarbase.com
 source_ext: .md
 theme: the-last-starbase
 time_format: '%H:%M:%S'
