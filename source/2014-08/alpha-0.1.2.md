@@ -1,5 +1,5 @@
 [[
-title: Weekend update
+title: Alpha Build 0.1.2
 timestamp: 2014-08-24 12:08
 author: Aaron
 tags: [alpha]
