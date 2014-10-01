@@ -1,3 +1,31 @@
+{% macro link(l, child=False) %}
+    {% if l.children %}
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle"
+            data-toggle="dropdown">{{l.label}} <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+        {% for l2 in l.children %}
+            {{ link(l2, child=True) }}
+        {% endfor %}
+        </ul>
+        </li>
+    {% else %}
+        <li> 
+        {% if l.rel == 'external' %}
+            <a href="{{l.href}}" target="{{l.get('target','_blank')}}">
+                {{l.label}}
+                {% if l.target != '_self' %}
+                <span class="glyphicon glyphicon-new-window"></span>
+                {% endif %}
+            </a>
+        {% else %}
+            <a href="{{l.href}}" target="{{l.get('target','_self')}}">{{l.label}}</a>
+        {% endif %}
+        </li>
+    {% endif %}
+
+{% endmacro %}
+
 <div class="navbar navbar-{% if topt.invert_navbar %}inverse{% else %}default{% endif %} navbar-fixed-top">
     <div class="container">
     <div class="navbar-header">
@@ -12,6 +40,10 @@
     <div class="navbar-collapse collapse" style="max-height: none;">
     <ul class="nav navbar-nav">
     {% for l in links %}
+        {{ link(l, child=False) }}
+    {% endfor %}
+
+    {% if linkorig %}
         {% if l.children %}
             <li class="dropdown">
             <a href="#" class="dropdown-toggle"
@@ -49,7 +81,7 @@
             {% endif %}
             </li>
         {% endif %}
-    {% endfor %}
+    {% endif %}
     </ul>
 
     <form class="navbar-form navbar-right" role="search" 
