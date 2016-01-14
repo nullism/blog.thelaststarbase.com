@@ -11,16 +11,26 @@ postlist:
   max_pages: 5
   order_field: mtime
   order_type: descending
-  per_page: 2
+  per_page: 5
   post_type: full
+rss_max_entries: 20
 site:
   author: TLS Team
+  base_url: http://blog.thelaststarbase.com
   description: The Last Starbase official blog
   keywords: the last startbase
   title: TLS Blog
-  base_url: http://blog.thelaststarbase.com
 source_ext: .md
-theme: the-last-starbase
+style: dark
+theme: null
 time_format: '%H:%M:%S'
 timestamp_format: '%Y-%m-%d %H:%M'
+upload_exts:
+- .gif
+- .jpg
+- .jpeg
+- .png
+- .tiff
+- .pdf
+version: 2
 web_prefix: ''
